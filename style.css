@@ -1,0 +1,41 @@
+
+#container {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 8px;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border: solid 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.nombre_card {
+    font-weight: bold;
+    font-size: 20px;
+}
+
